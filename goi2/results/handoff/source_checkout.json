@@ -1,0 +1,19 @@
+{
+  "scope": "Simulated source-only Git checkout using actual ignore rules; no remote access",
+  "source_files": 101,
+  "total_source_bytes": 6209348,
+  "required_files_present": true,
+  "generated_and_private_paths_ignored": [
+    ".aws/test",
+    "goi2/.venv/test",
+    "goi2/flutter_app/build/test",
+    "goi2/flutter_app/.dart_tool/test",
+    "goi2/results/my_run/filtered.png",
+    "goi2/results/mask_hand/filtered.png"
+  ],
+  "python_tests_exit_code": 0,
+  "cli_exit_code": 0,
+  "cli_output_created": true,
+  "dependency_note": "Uses the existing Python runtime for NumPy/Pillow; does not test a fresh pip installation",
+  "flutter_note": "Flutter checks are recorded separately in flutter_review.json"
+}

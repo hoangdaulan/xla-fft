@@ -1,0 +1,41 @@
+{
+  "settings": {
+    "filter": "identity",
+    "padding": "none",
+    "backend": "radix2",
+    "kind": "butterworth",
+    "center": 20.0,
+    "width": 10.0,
+    "order": 4,
+    "radius": 3.0,
+    "direction": "horizontal",
+    "tolerance": 5.0,
+    "protect": 0.0,
+    "exclude": 10.0,
+    "threshold": 6.0,
+    "max_pairs": 12,
+    "mask_mode": "reject",
+    "large": 40.0,
+    "small": 3.0
+  },
+  "manual_actions": [
+    [
+      47,
+      53,
+      3.0
+    ]
+  ],
+  "auto_peaks": [
+    [
+      -17,
+      -11
+    ]
+  ],
+  "metric_domain": "clip+half-up round to uint8; both input PNGs already quantized",
+  "limitations": [
+    "One smooth synthetic image; not the group dataset",
+    "Manual binary and automatic Butterworth use different transfer shapes",
+    "Manual BW versus Auto BW uses the same family/radius/order",
+    "Human selection time is not measured"
+  ]
+}

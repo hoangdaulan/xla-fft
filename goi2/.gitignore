@@ -1,0 +1,22 @@
+# Python environment and generated files
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor and operating-system files
+.idea/
+.vscode/
+*.iml
+*.swp
+.DS_Store
+
+# New processing runs are local; retain the baseline demo and measurements
+/results/*
+!/results/demo/
+!/results/benchmark.csv
+!/results/benchmark_environment.json
+!/results/validation.json
+!/results/handoff/

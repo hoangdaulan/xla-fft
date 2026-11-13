@@ -1,0 +1,13 @@
+{
+  "review_date": "2026-11-13",
+  "platform": "Linux x64 desktop",
+  "flutter": "3.44.4",
+  "dart": "3.12.2",
+  "checks": [
+    {"command": "flutter analyze", "exit_code": 0, "result": "No issues found"},
+    {"command": "flutter test", "exit_code": 0, "tests_passed": 4},
+    {"command": "flutter test integration_test/studio_test.dart -d linux --no-pub", "exit_code": 0, "tests_passed": 1},
+    {"command": "flutter build linux --release --no-pub", "exit_code": 0, "result": "Linux release bundle built"}
+  ],
+  "scope": "Recorded local review results. Native file-selection paths are mocked by the integration test; FFT/filter/save/export run through real Python."
+}

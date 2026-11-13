@@ -1,0 +1,16 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "platform": "Linux-7.0.0-38-generic-x86_64-with-glibc2.39",
+  "cpu": "x86_64",
+  "seed": 14,
+  "measured_region": "forward FFT only",
+  "warmup": 1,
+  "threads_env": {
+    "OMP_NUM_THREADS": null,
+    "OPENBLAS_NUM_THREADS": null,
+    "MKL_NUM_THREADS": null
+  },
+  "scipy_available": false,
+  "note": "Development machine only, not the final package 4 benchmark"
+}

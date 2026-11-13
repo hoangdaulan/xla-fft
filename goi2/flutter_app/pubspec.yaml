@@ -1,0 +1,31 @@
+name: fourier_studio
+description: 'Fourier Studio — Nhóm 14, hệ thống lọc ảnh mức xám.'
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: ^3.12.2
+dependencies:
+  flutter:
+    sdk: flutter
+  file_selector: ^1.1.0
+  path: ^1.9.1
+dev_dependencies:
+  file_selector_platform_interface: ^2.7.0
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: SectionSans
+      fonts:
+        - asset: assets/fonts/DejaVuSans.ttf
+        - asset: assets/fonts/DejaVuSans-Bold.ttf
+          weight: 700
+    - family: NotoSans
+      fonts:
+        - asset: assets/fonts/NotoSans-Regular.ttf
+        - asset: assets/fonts/NotoSans-Bold.ttf
+          weight: 700

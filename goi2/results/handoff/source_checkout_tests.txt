@@ -1,0 +1,28 @@
+test_bandpass_values (test_core.FourierTests.test_bandpass_values) ... ok
+test_fft_reference_and_roundtrip (test_core.FourierTests.test_fft_reference_and_roundtrip) ... ok
+test_imagej_filter_and_rounding (test_core.FourierTests.test_imagej_filter_and_rounding) ... ok
+test_invalid_filters (test_core.FourierTests.test_invalid_filters) ... ok
+test_invalid_radix (test_core.FourierTests.test_invalid_radix) ... ok
+test_known_sine (test_core.FourierTests.test_known_sine) ... ok
+test_masks_and_nyquist_symmetry (test_core.FourierTests.test_masks_and_nyquist_symmetry) ... ok
+test_parseval (test_core.FourierTests.test_parseval) ... ok
+test_peak_detection_and_auto_improvement (test_core.FourierTests.test_peak_detection_and_auto_improvement) ... ok
+test_pipeline_identity_all_padding (test_core.FourierTests.test_pipeline_identity_all_padding) ... ok
+test_shift_odd_even (test_core.FourierTests.test_shift_odd_even) ... ok
+test_stripe_orientation (test_core.FourierTests.test_stripe_orientation) ... ok
+test_open_preview_save_export_full_resolution (test_desktop_bridge.DesktopBridgeTests.test_open_preview_save_export_full_resolution) ... ok
+test_preview_thumbnail_does_not_change_saved_resolution (test_desktop_bridge.DesktopBridgeTests.test_preview_thumbnail_does_not_change_saved_resolution) ... ok
+test_protocol_errors_and_recovery (test_desktop_bridge.DesktopBridgeTests.test_protocol_errors_and_recovery) ... ok
+test_click_pair_undo_and_pass (test_desktop_model.DesktopModelTests.test_click_pair_undo_and_pass) ... ok
+test_invalid_parameters (test_desktop_model.DesktopModelTests.test_invalid_parameters) ... ok
+test_preview_matches_core (test_desktop_model.DesktopModelTests.test_preview_matches_core) ... ok
+test_stripes_auto_and_imagej (test_desktop_model.DesktopModelTests.test_stripes_auto_and_imagej) ... ok
+test_unicode_io_and_bundle (test_desktop_model.DesktopModelTests.test_unicode_io_and_bundle) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.264s
+
+OK
+
+CLI:
+{"output": "/tmp/fourier-source-check-kkelob44/cli_result", "peaks": [[-17, -11]], "imaginary_residual": 2.1146387711935176e-14}

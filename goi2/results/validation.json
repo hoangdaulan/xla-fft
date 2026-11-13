@@ -1,0 +1,17 @@
+{
+  "seed": 14,
+  "shape": [
+    64,
+    64
+  ],
+  "input": "standard normal float64",
+  "fft_max_abs_error": 1.530555893832145e-13,
+  "fft_relative_max_error": 8.93688091055121e-16,
+  "roundtrip_max_abs_error": 1.2755548324859882e-15,
+  "parseval_relative_error": 0.0,
+  "python": "3.12.14",
+  "numpy": "2.5.4",
+  "unit_tests": 20,
+  "status": "passed",
+  "source": "tools/verify_handoff.py; full report: results/handoff/verification.json"
+}

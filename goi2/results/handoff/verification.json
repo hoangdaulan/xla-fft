@@ -1,0 +1,67 @@
+{
+  "generated_at_utc": "2026-11-13T11:07:42.414287+00:00",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "pillow": "13.0.0",
+    "platform": "Linux-7.0.0-42-generic-x86_64-with-glibc2.39"
+  },
+  "python_tests": {
+    "run": 20,
+    "failures": 0,
+    "errors": 0,
+    "passed": true
+  },
+  "numerical_validation": {
+    "seed": 14,
+    "shape": [
+      64,
+      64
+    ],
+    "input": "standard normal float64",
+    "fft_max_abs_error": 1.530555893832145e-13,
+    "fft_relative_max_error": 8.93688091055121e-16,
+    "roundtrip_max_abs_error": 1.2755548324859882e-15,
+    "parseval_relative_error": 0.0
+  },
+  "manual_vs_auto": [
+    {
+      "method": "noisy",
+      "mse": 199.9373779296875,
+      "psnr_db": 25.121863685949855
+    },
+    {
+      "method": "manual_binary_mask",
+      "mse": 0.2156982421875,
+      "psnr_db": 54.792337549929016
+    },
+    {
+      "method": "manual_butterworth_notch",
+      "mse": 0.232421875,
+      "psnr_db": 54.4680336045121
+    },
+    {
+      "method": "auto_butterworth_notch",
+      "mse": 0.232421875,
+      "psnr_db": 54.4680336045121
+    }
+  ],
+  "auto_peaks": [
+    [
+      -17,
+      -11
+    ]
+  ],
+  "benchmark_smoke": {
+    "sizes": [
+      64,
+      128
+    ],
+    "repeats": 3,
+    "backends": [
+      "numpy",
+      "radix2"
+    ]
+  },
+  "scope": "Code handoff verification only; not a final Fiji or real-dataset evaluation"
+}

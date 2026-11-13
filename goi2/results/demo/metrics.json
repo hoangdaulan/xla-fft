@@ -1,0 +1,24 @@
+{
+  "detected_peaks": [
+    [
+      -17,
+      -11
+    ]
+  ],
+  "metric_domain": "quantized PNG input; rounded 8-bit metrics",
+  "manual_method": "binary circular mask, radius 3, row 47 col 53 plus conjugate",
+  "auto_method": "Butterworth notch, radius 3, order 4",
+  "warning": "Synthetic smooth image; not representative dataset evidence",
+  "noisy": {
+    "mse": 199.9373779296875,
+    "psnr": 25.121863685949855
+  },
+  "manual": {
+    "mse": 0.2156982421875,
+    "psnr": 54.792337549929016
+  },
+  "auto": {
+    "mse": 0.232421875,
+    "psnr": 54.4680336045121
+  }
+}

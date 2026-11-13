@@ -1,0 +1,17 @@
+{
+  "click_col_row": [
+    53,
+    47
+  ],
+  "frequency_u_v": [
+    -17,
+    -11
+  ],
+  "conjugate_col_row": [
+    75,
+    81
+  ],
+  "radius": 3,
+  "imaginary_residual": 2.219921196466344e-14,
+  "method": "Actual edit_mask MouseEvent handler; illustrative figures, not OS screenshots"
+}

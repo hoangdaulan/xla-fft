@@ -1,0 +1,20 @@
+# Local agent/application configuration
+.agents/
+.codex/
+.aws/
+
+# Local credentials and environment files
+.env
+.env.*
+!.env.example
+
+# Generated Python files and local environments
+__pycache__/
+*.py[cod]
+.venv/
+
+# Editors and OS metadata
+.idea/
+.vscode/
+*.iml
+.DS_Store
